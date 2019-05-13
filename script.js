@@ -10,7 +10,9 @@ let Cornwall = new City('Cornwall', 2.1, 0.4);
 let Kingston = new City('Kingston', 2.1, 0.4);
 let Ottawa = new City('Ottawa', 2.1, 0.4);
 
-
-let city = document.getElementById('Cornwall').innerHTML;
-
-console.log(city);
+function values() {
+  return{
+  document.getElementById('Ss').innerHTML = Cornwall.Ss;
+  document.getElementById('Ss').innerHTML = Cornwall.Sr;
+  }
+}

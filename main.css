@@ -47,6 +47,10 @@ q:before, q:after {
 	start of my CSS styling for website
 ***********************************************************************/
 
+html {
+	height: 100%;
+}
+
 body { 
 	background: rgb(122,188,255);
 	background: -moz-linear-gradient(top, rgba(122,188,255,1) 0%, rgba(96,171,248,1) 50%, rgba(96,171,248,1) 60%, rgba(64,150,238,1) 100%);
@@ -56,29 +60,25 @@ body {
 	width: 80%;
 }
 
-html {
-	height: 100%;
-}
-
-p, li, select {
+p, li, select, option {
 	font-family: 'Helvetica', 'Arial', 'Sans-Serif'; 
 	font-size: 1.3em;
 	line-height: 1.5em;
 	color: #2c2a2a;
 }
 
-h1, h2 { font-family: 'Helvetica', 'Arial', 'Sans-Serif'; }
-h1 { font-size: 2em; }
-h2 { font-size: 1.5em; }
-
-h1, h2 {
+h1, h2 { 
+	font-family: 'Helvetica', 'Arial', 'Sans-Serif';
 	color: #2c2a2a;
 	margin-bottom: 0.2em;
 }
 
+h1 { font-size: 2em; }
+h2 { font-size: 1.5em; }
+
 ::selection {
-	background-color: #568cf1;
-	color: #000000;
+	background-color: #a182e7;
+	color: #2c2a2a;
 }
 
 select {
@@ -94,12 +94,27 @@ select {
   font-size: 1.3em;
 	border: none;
 	text-align: center;
+	border-radius: 4px;
+}
+
+option {
+	text-align: center;
+	font-size: 1.3em;
+	color: rgb(223, 219, 219);
 }
 
 select:hover {
   background-color: rgb(43, 87, 182);
 }
 
-li {
-	display: inline;
-}
+/* .dropdown {
+	font-family: 'Helvetica', 'Arial', 'Sans-Serif'; 
+	font-size: 1.3em;
+  position: absolute;
+  background-color: #f1f1f1;
+  z-index: 1;
+	color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}  */

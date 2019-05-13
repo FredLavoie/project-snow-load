@@ -13,9 +13,9 @@
   <br>
   <p>Which city are you interested in? </p>
   <br>
-  <select name="City">
+  <select name="City" class="dropdown">
     <option value="Choose">Choose a city</option>
-    <option value="Cornwall" id="Cornwall">Cornwall</option>
+    <option value="Cornwall"  id="Cornwall">Cornwall</option>
     <option value="Kingston" id="Kingston">Kingston</option>
     <option value="Ottawa" id="Ottawa">Ottawa</option>
   </select>
@@ -23,10 +23,8 @@
   <br>
   <p>Here are the snow and rain data for the selected city:</p>
   <ul class="data">
-    <li id="Ss">Ss = </li>
-    <a href=""></a>
-    <br>
-    <li id="Sr">Sr = </li>
+    <li id="Ss">Ss = <span onload="values()"></span></li>
+    <li id="Sr">Sr = <span onload="values()"></span></li>
   </ul>
 </body>
 </html>
