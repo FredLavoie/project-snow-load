@@ -1,18 +1,18 @@
 class City {
-  constructor(name, Ss, Sr) {
+  constructor(num, name, Ss, Sr) {
+    this.num = num;
     this.name = name;
     this.Ss = Ss;
     this.Sr = Sr;
   }
 }
 
-let Cornwall = new City('Cornwall', 2.1, 0.4);
-let Kingston = new City('Kingston', 2.1, 0.4);
-let Ottawa = new City('Ottawa', 2.1, 0.4);
+let Cornwall = new City(1, 'Cornwall', 2.1, 0.4);
+let Kingston = new City(2, 'Kingston', 2.1, 0.4);
+let Ottawa = new City(3, 'Ottawa', 2.1, 0.4);
 
-function values() {
-  return{
-  document.getElementById('Ss').innerHTML = Cornwall.Ss;
-  document.getElementById('Ss').innerHTML = Cornwall.Sr;
-  }
-}
+
+let city = document.getElementById('city').value;
+
+
+console.log(city);
