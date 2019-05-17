@@ -120,13 +120,6 @@ select:hover {
 	margin-left: 20px;
 }
 
-#importance, #imp {
-	display: inline;
-}
-#imp {
-	margin: 50px;
-}
-
 #factors {
 	display: inline-block;
 	text-align: right;

@@ -16,24 +16,20 @@
     <option value= 'Kingston'>Kingston</option>
     <option value= 'Ottawa'>Ottawa</option>
   </select>
-  
   <p>Here are the snow and rain data for the selected city:</p>
   <ul class="data">
     <li>Ss = <span id="ss"></span></li>
     <li>Sr = <span id="sr"></span></li>
   </ul>
   <p>Choose the importance category:</p>
-  <ul>
-    <select id="importance">
-      <option value= 0>Choose Importance</option>
-      <option value= 0.80>Low</option>
-      <option value= 1.00>Normal</option>
-      <option value= 1.25>High</option>
-      <option value= 1.75>Post Disaster</option>
-    </select>
-    <p id="imp"></p>
-  </ul>
-  <br>
+  <select id="importance">
+    <option value= 0>Choose Importance</option>
+    <option value= 0.80>Low</option>
+    <option value= 1.00>Normal</option>
+    <option value= 1.25>High</option>
+    <option value= 1.75>Post Disaster</option>
+  </select>
+  <p>Importance factor, Ie = <span id="imp"></span></p>
   <p>Design snow load factors:</p>
   <div id="list-block">
     <ul id="factors">
