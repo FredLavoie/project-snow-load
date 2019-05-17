@@ -1,4 +1,4 @@
-# project-snow-load
+# Project: Snow Load
 This simple webpage calculates the snow load to be used in the design of buildings
 in Canada according to the National Building code of Canada (NBCC).
 

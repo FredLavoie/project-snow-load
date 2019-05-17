@@ -8,9 +8,9 @@ const cities = [
 
 // list of load factors
 let cb = 0.8;
-let cw = 1;
-let cs = 1;
-let ca = 1;
+let cw = 1.0;
+let cs = 1.0;
+let ca = 1.0;
 
 // get 'Ss' and 'Sr' values in city based on selection
 const city = document.querySelector('#city');
